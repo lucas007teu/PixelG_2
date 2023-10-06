@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Xbox</title>
+	<style>
+	
+		header{
+			text-align: center;
+			background-color: #1F6F23;
+			color: #3C00AB;
+			padding: 1px 5px 10px
+		}
+		.dropdown {
+           position: relative;
+           display: inline-block; 
+         }
+         .dropdown-content {
+           display: none;
+           position: absolute;
+           top: 100%;
+           left: 0;
+           background-color: white;
+           box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+           border-radius: 10px;
+           z-index: 1;
+         }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        .dropdown-content a {
+          display: block;
+          padding: 10px;
+          color:black;
+          text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+          background-color: #f2f2f2;
+        }
+		nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+	pointer-events: fill;
+}
+		nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+	pointer-events: fill;
+}
+		body {
+    font-family: Arial, sans-serif;
+}
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+		    <ul>
+			    <li><a href="#">Inicio</a></li>
+				    <div class="dropdown"> 
+				    <li><a href="#">Jogos</a></li>
+					    <div class="dropdown-content">
+                        <a href="PlayStation.html">PlayStation</a>
+                        <a href="XboX.html">XboX</a>
+                        <a href="Nitendo.html">Nitendo</a>
+                        </div>
+                    </div>
+				<li><a href="#">Ofertas</a></li>
+                <li><a href="#">Suporte</a></li>
+				<li><a href="#">Pega no meu ovo</a></li>
+		    </ul>
+		</nav>
+	
+	</header>
+</body>
+</html>

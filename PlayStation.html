@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PlayStation Store</title>
+    <style>
+        /* Reset de Estilos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: black;
+}
+
+header {
+    background-color: #003087;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 2%;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5a00;
+}
+
+.featured-games {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.featured-games h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.featured-games p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5a00;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #ff7a2a;
+}
+
+.game-list {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.game-list h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.game {
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid #003087; /* Cor azul (#003087) para a borda */
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #003087; /* Cor azul (#003087) para a borda */
+}
+
+.game h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.game p {
+    margin: 10px 0;
+}
+
+.game a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.game a:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #003087;
+    color: #fff;
+    padding: 20px 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="playstation-logo.png" alt="PlayStation Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="PixelG.html">Início</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">PlayStation Plus</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="featured-games">
+        <div class="container">
+            <h1>Bem-vindo à PlayStation Store</h1>
+            <p>Explore os jogos mais recentes e emocionantes para o seu PlayStation.</p>
+
+        </div>
+    </section>
+
+    <section class="game-list">
+        <div class="container">
+            <h2>Jogos em Destaque</h2>
+            <div class="game">
+                <img src="img/Aranha.jpg" alt="Jogo 1" width="800px">
+                <h1>Spider Man</h1>
+                
+                <p>R$249,99</p>
+                <a href="#">Comprar</a>
+            </div>
+            <div class="game">
+                <img src="game2.jpg" alt="Jogo 2">
+                <h3>Jogo 2</h3>
+                <p>Descrição do Jogo 2.</p>
+                <p>Preço: R$59,99</p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 PlayStation Store</p>
+        </div>
+    </footer>
+</body>
+</html>

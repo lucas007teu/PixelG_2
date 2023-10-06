@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Downloads/styles.css">
+    <title>PixelG</title>
+    <style>
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+		}p{
+			font-family: 'Press Start Regular', cursive;
+		}
+		h1{
+			   font-family: 'Press Start Regular', cursive;
+		}
+		
+		img {
+   
+    transition: transform 0.2s; 
+		 	
+}
+
+img:hover {
+    transform: scale(1.02); 
+		}
+		
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #200E42;
+    padding: 35px 0px 33px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 90px;
+	
+	
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #5D77A0;
+}
+
+.featured-games {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.featured-games h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.featured-games p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+   
+    padding: 10px 10px;
+    background-color: #3567CC;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #6996C5;
+}
+
+footer {
+    text-align: center;
+    background-color: #200E42;
+    color: #fff;
+    padding: 20px 0;
+}
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+section {
+    font-family: Arial, sans-serif;
+    background-color: #5F3855;
+    color: #fff;
+}
+
+.featured-games {
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.featured-games h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+	
+}
+
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden  ;
+}
+
+.carousel {
+    display: flex;
+    animation: scroll 20s linear infinite;
+	
+    width: 100%; 
+}
+
+.carousel img {
+    width: 50%;
+    height: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+
+		}
+
+.search-bar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: -60px;
+    right: 50px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+       .dropdown {
+           position: relative;
+           display: inline-block;     
+         }
+       .dropdown-content {
+           display: none;
+           position: absolute;
+           top: 100%;
+           left: 0;
+           background-color: #1B0A31;
+           box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+           border-radius: 10px;
+           z-index: 1;
+           
+         }
+
+       .dropdown:hover .dropdown-content {
+           display: block;
+        }
+
+        .dropdown-content a {
+          display: block;
+          padding: 10px;
+          color: white;
+          text-decoration: none;
+        }
+
+        
+     .logo {
+         left: 5%;
+         position: absolute;
+     }
+     section p{
+        padding: 40px 0px 0px 0px;
+     }
+     .subtit {
+        background-color: #200E42;
+        text-decoration: none;
+        color: #fff;  
+        text-align: center;
+     }
+
+     .subtit h1{
+        font-weight: bold;
+        padding: 20px 0px 
+     }
+     .nov {
+            border: 4px solid #;
+            padding: 20px 10px 20px ;
+            margin: 40px;
+            background-color: #fff;
+            text-align: center;
+          }
+          .nov img{
+            width: 80px;
+            left: 28%;
+            padding-top: -80px;
+            position: absolute;
+          }
+          .nov a {
+            text-decoration: none;
+            color: #000;
+          }
+          .nov h1{
+            padding: 20px 0px 0px 0px;
+          }
+		
+   
+    .search-bar input[type="text"] {
+        padding: 10px;
+        border: 10px;
+        border-radius: 12px;
+        font-size: 15px;
+        width: 300px;
+        margin-right: 10px;
+        outline: none;
+    }
+
+   
+    .search-bar button[type="submit"] {
+        padding: 8px 10px;
+        background-color: #200E42;
+        color: #fff;
+        border: none;
+        border-radius: 28px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+	
+		.BemVindo{
+			 
+		} 
+		body {
+    font-family: Arial, sans-serif;
+    background-color:  #2A2A2A;
+    color: #fff;
+}
+
+header {
+    background-color: #200E42; 
+    padding: 35px 0px 33px;
+}
+
+nav a {
+    color: #fff; 
+}
+
+nav a:hover {
+    color: #5D77A0;
+}
+
+.featured-games {
+    background-color: #1B0A31; 
+    color: #fff;
+}
+.subtit {
+    background-color: #200E42;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subtit h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 21px;
+}
+
+.nov {
+    border: 3px solid #5F3855;
+    border-radius: 19px;
+    padding: 17px;
+    margin: 29px;
+    background-color: #143755; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nov:hover {
+    transform: scale(1.01); 
+}
+
+.nov img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.nov a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nov h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nov p {
+    font-size: 13px;
+}
+
+   
+</style>
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Untitled-1-removebg-preview.png" alt="PlayStation Logo">
+            </div>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <div class="dropdown">  
+                <li><a href="#">Jogos</a></li>
+                <div class="dropdown-content">
+                    <a href="../../Downloads/PlayStation.html">PlayStation</a>
+                    <a href="../../Downloads/XboX.html">XboX</a>
+                     <a href="../../Downloads/Nitendo.html">Nitendo</a>
+                    </div>
+                </div>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <section class="featured-games">
+            <h1>Bem vindo</h1>
+			<div class="BemVindo">
+			 <img src="img/Untitled-2-removebg-preview.png" alt="logoP">
+				</div>
+            <div class="carousel-container">
+                <div class="carousel">
+                <img src="img/Aranha.jpg" alt="Jogo 1">
+                <img src="img/Call.jpg.jpg" alt="Jogo 2">
+                <img src="img/mortal.jpg.jpg" alt="Jogo 3">
+				<img src="img/valorant (1).jpg" alt="Jogo 4">
+                </div>
+            </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Pesquisar">
+                    <button type="submit">🔎</button>
+                </div>
+                
+            
+            <p>Diversas variedades de jogos.</p>
+            <a href="#" class="explore-button">Comprar Já</a>
+        </section>
+        <div class="subtit">
+            <h1>Novidades</h1>
+        </div>
+        <div class="nov">
+            <img src="../../Downloads/img/mk.png" alt="Kombat_Not">
+              <a href="https://www.tecmundo.com.br/voxel/271825-mortal-kombat-1-dlc-novos-lutadores-ter-vazado-veja.htm" target="_blank">
+                <h2>Mortal Kombat 1</h2><p>Vaza DLC com novos lutadores</p>
+            </a>
+          </div>
+          <div class="nov">
+            <img src="../../Downloads/img/spi.jpg" alt="Kombat_Not">
+              <a href="https://www.tecmundo.com.br/voxel/271825-mortal-kombat-1-dlc-novos-lutadores-ter-vazado-veja.htm" target="_blank">
+                <h2>Mortal Kombat 1</h2><p>Vaza DLC com novos lutadores</p>
+            </a>
+          </div>
+          <div class="nov">
+            <img src="../../Downloads/img/mk.png" alt="Kombat_Not">
+              <a href="https://www.tecmundo.com.br/voxel/271825-mortal-kombat-1-dlc-novos-lutadores-ter-vazado-veja.htm" target="_blank">
+                <h2>Mortal Kombat 1</h2><p>Vaza DLC com novos lutadores</p>
+            </a>
+          </div>
+          <div class="nov">
+            <img src="../../Downloads/img/mk.png" alt="Kombat_Not">
+              <a href="https://www.tecmundo.com.br/voxel/271825-mortal-kombat-1-dlc-novos-lutadores-ter-vazado-veja.htm" target="_blank">
+                <h2>Mortal Kombat 1</h2><p>Vaza DLC com novos lutadores</p>
+            </a>
+          </div>
+          <div class="nov">
+            <img src="../../Downloads/img/mk.png" alt="Kombat_Not">
+              <a href="https://www.tecmundo.com.br/voxel/271825-mortal-kombat-1-dlc-novos-lutadores-ter-vazado-veja.htm" target="_blank">
+                <h2>Mortal Kombat 1</h2><p>Vaza DLC com novos lutadores</p>
+            </a>
+          </div>
+          
+    </body>
+    <footer>
+        <p>&copy; 2023 PixelG</p>
+    </footer>
+</body>
+</html>
